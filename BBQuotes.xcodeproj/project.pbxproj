@@ -14,6 +14,13 @@
 		3376A1342C3AAE97002CCB14 /* BBQuotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A1332C3AAE97002CCB14 /* BBQuotesTests.swift */; };
 		3376A13E2C3AAE97002CCB14 /* BBQuotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A13D2C3AAE97002CCB14 /* BBQuotesUITests.swift */; };
 		3376A1402C3AAE97002CCB14 /* BBQuotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A13F2C3AAE97002CCB14 /* BBQuotesUITestsLaunchTests.swift */; };
+		3376A1502C3AAFE1002CCB14 /* samplecharacter.json in Resources */ = {isa = PBXBuildFile; fileRef = 3376A14D2C3AAFE1002CCB14 /* samplecharacter.json */; };
+		3376A1512C3AAFE1002CCB14 /* sampledeath.json in Resources */ = {isa = PBXBuildFile; fileRef = 3376A14E2C3AAFE1002CCB14 /* sampledeath.json */; };
+		3376A1522C3AAFE1002CCB14 /* samplequote.json in Resources */ = {isa = PBXBuildFile; fileRef = 3376A14F2C3AAFE1002CCB14 /* samplequote.json */; };
+		3376A1552C3AB582002CCB14 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A1542C3AB582002CCB14 /* QuoteModel.swift */; };
+		3376A1572C3AB5BA002CCB14 /* CharectorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A1562C3AB5BA002CCB14 /* CharectorModel.swift */; };
+		3376A1592C3AB7E1002CCB14 /* DeathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A1582C3AB7E1002CCB14 /* DeathModel.swift */; };
+		3376A15B2C3AD3CE002CCB14 /* FetchServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A15A2C3AD3CE002CCB14 /* FetchServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		3376A1392C3AAE97002CCB14 /* BBQuotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBQuotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3376A13D2C3AAE97002CCB14 /* BBQuotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBQuotesUITests.swift; sourceTree = "<group>"; };
 		3376A13F2C3AAE97002CCB14 /* BBQuotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBQuotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3376A14D2C3AAFE1002CCB14 /* samplecharacter.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplecharacter.json; sourceTree = "<group>"; };
+		3376A14E2C3AAFE1002CCB14 /* sampledeath.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampledeath.json; sourceTree = "<group>"; };
+		3376A14F2C3AAFE1002CCB14 /* samplequote.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = samplequote.json; sourceTree = "<group>"; };
+		3376A1542C3AB582002CCB14 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		3376A1562C3AB5BA002CCB14 /* CharectorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharectorModel.swift; sourceTree = "<group>"; };
+		3376A1582C3AB7E1002CCB14 /* DeathModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathModel.swift; sourceTree = "<group>"; };
+		3376A15A2C3AD3CE002CCB14 /* FetchServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchServices.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +110,10 @@
 			children = (
 				3376A1222C3AAE96002CCB14 /* BBQuotesApp.swift */,
 				3376A1242C3AAE96002CCB14 /* ContentView.swift */,
+				3376A15A2C3AD3CE002CCB14 /* FetchServices.swift */,
 				3376A1262C3AAE97002CCB14 /* Assets.xcassets */,
+				3376A1532C3AB575002CCB14 /* Models */,
+				3376A14C2C3AAFC5002CCB14 /* SampleData */,
 				3376A1282C3AAE97002CCB14 /* Preview Content */,
 			);
 			path = BBQuotes;
@@ -125,6 +142,26 @@
 				3376A13F2C3AAE97002CCB14 /* BBQuotesUITestsLaunchTests.swift */,
 			);
 			path = BBQuotesUITests;
+			sourceTree = "<group>";
+		};
+		3376A14C2C3AAFC5002CCB14 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				3376A14D2C3AAFE1002CCB14 /* samplecharacter.json */,
+				3376A14E2C3AAFE1002CCB14 /* sampledeath.json */,
+				3376A14F2C3AAFE1002CCB14 /* samplequote.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		3376A1532C3AB575002CCB14 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3376A1542C3AB582002CCB14 /* QuoteModel.swift */,
+				3376A1562C3AB5BA002CCB14 /* CharectorModel.swift */,
+				3376A1582C3AB7E1002CCB14 /* DeathModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +268,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3376A1512C3AAFE1002CCB14 /* sampledeath.json in Resources */,
 				3376A12A2C3AAE97002CCB14 /* Preview Assets.xcassets in Resources */,
+				3376A1502C3AAFE1002CCB14 /* samplecharacter.json in Resources */,
+				3376A1522C3AAFE1002CCB14 /* samplequote.json in Resources */,
 				3376A1272C3AAE97002CCB14 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3376A1552C3AB582002CCB14 /* QuoteModel.swift in Sources */,
 				3376A1252C3AAE96002CCB14 /* ContentView.swift in Sources */,
 				3376A1232C3AAE96002CCB14 /* BBQuotesApp.swift in Sources */,
+				3376A1592C3AB7E1002CCB14 /* DeathModel.swift in Sources */,
+				3376A1572C3AB5BA002CCB14 /* CharectorModel.swift in Sources */,
+				3376A15B2C3AD3CE002CCB14 /* FetchServices.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
