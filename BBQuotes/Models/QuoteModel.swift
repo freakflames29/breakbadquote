@@ -10,4 +10,6 @@ import Foundation
 struct QuoteModel : Decodable {
     let character : String
     let quote: String
+    
+  
 }
