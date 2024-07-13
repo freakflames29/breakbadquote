@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3344EAC72C4294D100FA084B /* CharectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3344EAC62C4294D100FA084B /* CharectorView.swift */; };
+		3344EAC92C42B6B100FA084B /* sampleepisode.json in Resources */ = {isa = PBXBuildFile; fileRef = 3344EAC82C42B6B100FA084B /* sampleepisode.json */; };
 		336AC8E12C3D9C78007D098C /* QuoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336AC8E02C3D9C78007D098C /* QuoteView.swift */; };
 		3376A1232C3AAE96002CCB14 /* BBQuotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A1222C3AAE96002CCB14 /* BBQuotesApp.swift */; };
 		3376A1252C3AAE96002CCB14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3376A1242C3AAE96002CCB14 /* ContentView.swift */; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3344EAC62C4294D100FA084B /* CharectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharectorView.swift; sourceTree = "<group>"; };
+		3344EAC82C42B6B100FA084B /* sampleepisode.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sampleepisode.json; sourceTree = "<group>"; };
 		336AC8E02C3D9C78007D098C /* QuoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteView.swift; sourceTree = "<group>"; };
 		3376A11F2C3AAE96002CCB14 /* BBQuotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBQuotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3376A1222C3AAE96002CCB14 /* BBQuotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBQuotesApp.swift; sourceTree = "<group>"; };
@@ -120,6 +124,7 @@
 				3376A1242C3AAE96002CCB14 /* ContentView.swift */,
 				336AC8E02C3D9C78007D098C /* QuoteView.swift */,
 				33F80A8F2C3C3CEE00D4E90C /* Test.swift */,
+				3344EAC62C4294D100FA084B /* CharectorView.swift */,
 				3376A15A2C3AD3CE002CCB14 /* FetchServices.swift */,
 				33F80A972C3C497000D4E90C /* ViewModel.swift */,
 				33F80A8D2C3C3A6D00D4E90C /* TestFileView.swift */,
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				3376A14D2C3AAFE1002CCB14 /* samplecharacter.json */,
+				3344EAC82C42B6B100FA084B /* sampleepisode.json */,
 				3376A14E2C3AAFE1002CCB14 /* sampledeath.json */,
 				3376A14F2C3AAFE1002CCB14 /* samplequote.json */,
 			);
@@ -281,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3376A1512C3AAFE1002CCB14 /* sampledeath.json in Resources */,
+				3344EAC92C42B6B100FA084B /* sampleepisode.json in Resources */,
 				3376A12A2C3AAE97002CCB14 /* Preview Assets.xcassets in Resources */,
 				3376A1502C3AAFE1002CCB14 /* samplecharacter.json in Resources */,
 				3376A1522C3AAFE1002CCB14 /* samplequote.json in Resources */,
@@ -313,6 +320,7 @@
 				336AC8E12C3D9C78007D098C /* QuoteView.swift in Sources */,
 				33F80A982C3C497000D4E90C /* ViewModel.swift in Sources */,
 				3376A1552C3AB582002CCB14 /* QuoteModel.swift in Sources */,
+				3344EAC72C4294D100FA084B /* CharectorView.swift in Sources */,
 				3376A1252C3AAE96002CCB14 /* ContentView.swift in Sources */,
 				3376A1232C3AAE96002CCB14 /* BBQuotesApp.swift in Sources */,
 				3376A1592C3AB7E1002CCB14 /* DeathModel.swift in Sources */,

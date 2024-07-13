@@ -24,6 +24,12 @@ struct ContentView: View {
                     Label("Better call saul",systemImage: "briefcase.fill")
                 }
             
+            QuoteView(show: "El Camino")
+                .toolbarBackground(.visible, for: .tabBar)
+                .tabItem {
+                    Label("El Camnio",systemImage: "car")
+                }
+            
             
             
         }
