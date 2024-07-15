@@ -27,7 +27,7 @@ struct Episode : Decodable {
         if episodeString.first == "0" {
             episodeString = String(episodeString.removeLast())
         }
-        return "Season \(season) and Episode \(episodeString)"
+        return "Season \(season) , Episode \(episodeString)"
     }
     
 }
